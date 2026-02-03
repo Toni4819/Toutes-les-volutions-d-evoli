@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Évolutions d’Aquali - Accueil</title>
+  <title>Évolutions d’Évoli - Accueil</title>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; background: #e0f7fa; }
     button { padding: 10px 20px; margin: 20px; font-size: 16px; cursor: pointer; }
@@ -11,7 +11,7 @@
   </style>
 </head>
 <body>
-  <h1>Pokédex Parodique : Évolutions d’Aquali</h1>
+  <h1>Pokédex Parodique : Évolutions d’Évoli</h1>
   <p>Découvre une évolution absurde au hasard :</p>
   <button onclick="getRandomEvolution()">🎲 Tirer une évolution</button>
   <div id="result"></div>
@@ -24,7 +24,7 @@
       const evolutions = data.evolutions;
       const random = evolutions[Math.floor(Math.random() * evolutions.length)];
       document.getElementById("result").innerText = 
-        "En quoi veux-tu que Aquali évolue ? En " + random;
+        "En quoi veux-tu que évoli évolue ? En " + random;
     }
   </script>
 </body>
